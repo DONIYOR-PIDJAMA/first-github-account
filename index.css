@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  display: flex;
+}
+
+.img-rog-logo-svg {
+  margin-left: 30px;
+}
+
+.navbar-wrapper {
+  display: flex;
+  width: 576px;
+  height: 50px;
+  margin-inline: 270px;
+  column-gap: 16px;
+  padding-block: 15px;
+}
+
+.navbar-a {
+  color: white;
+  text-decoration-line: none; 
+  transition: text-decoration-line 0.3s linear;
+}
+
+.navbar-a:hover {
+  text-decoration-line: underline;
+}
+
+.end-wrapper {
+  display: flex;
+  padding-block: 8px;
+}
+
+.end-asus {
+  width: 100px;
+  height: 35px;
+}
