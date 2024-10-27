@@ -18,6 +18,7 @@ header {
   margin-inline: 270px;
   column-gap: 16px;
   padding-block: 15px;
+  background-color: black;
 }
 
 .navbar-a {
