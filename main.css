@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 1288px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+/* navbar is start */
+.header-nav-ul {
+  width: 1500px;
+  height: 100px;
+  margin: 0;
+  padding: 41px 30px 29px 138px;
+  display: flex;
+}
+
+.nav-a-milliy {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27px;
+  justify-content: space-between;
+  color: rgba(0, 211, 253, 1);
+  text-decoration-line: none;
+  transition: text-shadow 0.3s linear;
+}
+
+.nav-a-milliy:hover {
+  text-shadow: 3px 3px 8px;
+}
+
+.nav-li-two {
+  margin-left: 290px;
+}
+
+.nav-a-menu {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-left: 28px;
+  text-decoration-line: none;
+  color: black;
+  transition: color 0.2s linear;
+  transition: text-shadow 0.2s linear;
+}
+
+.nav-a-menu:hover {
+  color: black;
+  text-shadow: 1px 1px 1px;
+}
+
+.tg-a {
+  margin-left: 290px;
+}
+
+.translator {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 28px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  text-decoration-line: none;
+  color: white;
+  background-color: orange;
+  border: 3px solid orange;
+  transition: box-shadow 0.2s linear;
+}
+
+.translator:hover {
+  box-shadow: 0px 0px 20px orange;
+}
+
+/* navbar is finish */
+
+/* main is start */
+
+.bottom-widht-two {
+  width: 150px;
+  height: 4px;
+  margin-left: 164px;
+  background-color: #00d3fd;
+  margin-bottom: 31px;
+}
+
+
+.section-one {
+  padding-block: 193px 115px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(./ozbek.png);
+}
+
+.main-wrapper {
+  width: 650px;
+  border-radius: 33px;
+}
+
+.desc-wrapper {
+  width: 480px;
+}
+
+.li-h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.li-p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(126, 125, 122, 1);
+}
+
+.buyurtma-a {
+  width: 187px;
+  height: 45px;
+  margin-top: 18px;
+  padding: 9px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  display: block;
+  color: black;
+  text-decoration-line: none;
+  border-radius: 33px;
+  background-color: rgba(0, 211, 253, 1);
+  border: 3px solid rgba(0, 211, 253, 1);
+  transition: background-color 0.2s linear;
+}
+
+.buyurtma-a:hover {
+  background-color: rgb(215, 207, 190);
+}
+
+/* main box starting */
+
+.money-aura {
+  width: 1350px;
+  border: 2px solid rgba(0, 211, 253, 1);
+  margin-block: 50px;
+  border-radius: 16px;
+}
+
+.text-mafia {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+}
+
+.title {
+  margin-bottom: 1px;
+}
+
+.bottom-widht {
+  width: 90px;
+  height: 4px;
+  margin-left: 124px;
+  background-color: #00d3fd;
+  margin-bottom: 31px;
+}
+
+.card-ul {
+  width: 1408px;
+  height: 895px;
+  margin-left: 105px;
+  padding: 0;
+}
+
+.card {
+  width: 420px;
+  height: 778px;
+  border: 1px solid rgba(146, 146, 146, 0.4);
+  border-radius: 12px;
+  display: inline-block;
+  margin-right: 45px;
+  margin-bottom: 40px;
+  padding: 22px 19px 25px 24px;
+  box-shadow: 0px 0px 30px rgba(205, 205, 205, 0.7);
+}
+
+.card-img {
+  width: 370px;
+  border: 16px;
+  display: inline-block;
+}
+
+.card-money-div {
+  width: 308px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.money {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+}
+
+.money-two {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+
+.card-plus {
+  width: 308px;
+  height: 43px;
+  margin-top: 38px;
+  padding: 8px 141px;
+  border-radius: 64px;
+  display: block;
+  background-color: rgba(0, 211, 253, 1);
+  border: 2px solid rgba(0, 211, 253, 1);
+  transition: background-color 0.2s linear;
+}
+
+.card-plus:hover {
+  background-color: white;
+}
+/*  box ending  */
+
+.yandex-map {
+  margin-top: 100px;
+}
+
+/* footer is starting */
+.footer {
+  background-color: #151515;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  column-gap: 50px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #151515;
+}
+
+.footer-wrapper-one {
+  width: 205px;
+}
+
+.footer-h2 {
+  color: white;
+}
+
+.footer-h2-1 {
+  color: rgba(0, 211, 253, 1);
+}
+
+.footer-a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #6e6e6e;
+  display: block;
+  text-decoration-line: none;
+  transition: color 0.2s linear;
+}
+
+.footer-a:hover {
+  color: white;
+}
+
+.footer-shadow {
+  box-shadow: 20px 20px 50px white;
+}
+
+/* footer is finish */

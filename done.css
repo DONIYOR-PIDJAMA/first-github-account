@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 1288px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+/* navbar is start */
+.header-nav-ul {
+  width: 1500px;
+  height: 100px;
+  margin: 0;
+  padding: 41px 30px 29px 138px;
+  display: flex;
+}
+
+.nav-a-milliy {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27px;
+  justify-content: space-between;
+  color: rgba(0, 211, 253, 1);
+  text-decoration-line: none;
+  transition: text-shadow 0.3s linear;
+}
+
+.nav-a-milliy:hover {
+  text-shadow: 3px 3px 8px;
+}
+
+.nav-li-two {
+  margin-left: 290px;
+}
+
+.nav-a-menu {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-left: 28px;
+  text-decoration-line: none;
+  color: black;
+  transition: color 0.2s linear;
+  transition: text-shadow 0.2s linear;
+}
+
+.nav-a-menu:hover {
+  color: black;
+  text-shadow: 1px 1px 1px;
+}
+
+.tg-a {
+  margin-left: 290px;
+}
+
+.translator {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 28px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  text-decoration-line: none;
+  color: white;
+  background-color: orange;
+  border: 3px solid orange;
+  transition: box-shadow 0.2s linear;
+}
+
+.translator:hover {
+  box-shadow: 0px 0px 20px orange;
+}
+
+/* navbar is finish */
+
+/* main start */
+.title {
+  margin-bottom: 1px;
+}
+
+.bottom-widht {
+  width: 140px;
+  height: 4px;
+  margin-left: 164px;
+  background-color: #00d3fd;
+  margin-bottom: 31px;
+}
+
+.container-order {
+  width: 440px;
+  display: block;
+  margin-block: 50px;
+  margin-left: 500px;
+  padding: 5px 23px 20px;
+  border-radius: 16px;
+  border: 2px solid rgba(0, 211, 253, 1);
+  transition: background-color 0.2s linear;
+}
+
+.main-img-for-done {
+  display: inline;
+  width: 394px;
+  height: 320px;
+  object-fit: contain;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin-block: 5px;
+}
+
+.p-one {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(0, 211, 253, 1);
+}
+/* main finish */
