@@ -1,28 +1,11 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style-type: none;
-}
-
 .container {
-  width: 1288px;
+  width: 1273px;
   margin-inline: auto;
   padding-inline: 20px;
 }
 
 /* navbar is start */
+
 .header-nav-ul {
   width: 1500px;
   height: 100px;
@@ -46,7 +29,7 @@ li {
 }
 
 .nav-li-two {
-  margin-left: 290px;
+  margin-left: 170px;
 }
 
 .nav-a-menu {
@@ -72,18 +55,39 @@ li {
 .translator {
   font-size: 14px;
   font-weight: 400;
-  margin-left: 28px;
+  margin-left: 250px;
   padding: 3px 10px;
   border-radius: 4px;
   text-decoration-line: none;
   color: white;
-  background-color: orange;
-  border: 3px solid orange;
-  transition: box-shadow 0.2s linear;
+  background-color: rgba(0, 211, 253, 1);
+  border: 3px solid rgba(0, 211, 253, 1);
+  transition: background-color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.sign-up-button {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 2px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  text-decoration-line: none;
+  color: white;
+  background-color: rgba(0, 211, 253, 1);
+  border: 3px solid rgba(0, 211, 253, 1);
+  transition: background-color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.sign-up-button:hover {
+  color: black;
+  background-color: white;
 }
 
 .translator:hover {
-  box-shadow: 0px 0px 20px orange;
+  color: black;
+  background-color: white;
 }
 
 /* navbar is finish */
@@ -97,7 +101,8 @@ li {
   width: 100%;
   display: flex;
   column-gap: 50px;
-  padding: 20px;
+  margin-top: 100px;
+  padding-block: 20px;
   background-color: #151515;
 }
 
@@ -131,4 +136,5 @@ li {
 .footer-shadow {
   box-shadow: 20px 20px 50px white;
 }
+
 /* footer is finish */

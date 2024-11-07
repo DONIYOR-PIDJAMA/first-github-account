@@ -23,6 +23,7 @@ li {
 }
 
 /* main start */
+
 .title {
   margin-bottom: 1px;
 }
@@ -30,7 +31,7 @@ li {
 .bottom-widht {
   width: 140px;
   height: 4px;
-  margin-left: 164px;
+  margin-left: 140px;
   background-color: #00d3fd;
   margin-bottom: 31px;
 }
@@ -65,4 +66,25 @@ p {
   font-weight: 700;
   color: rgba(0, 211, 253, 1);
 }
+
+.order-a {
+  border-radius: 9999px;
+  padding: 8px 91px;
+  margin-top: 14px;
+  display: inline-block;  
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration-line: none;
+  background-color: rgba(0, 211, 253, 1);
+  border: 1px solid rgba(0, 211, 253, 1);
+  transition: color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.order-a:hover {
+  color: rgba(0, 211, 253, 1);
+  background-color: white;
+}
+
 /* main finish */
